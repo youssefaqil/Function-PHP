@@ -12,11 +12,11 @@
  	 {
   		if(empty(array_diff($row1, $row2)))
     	{
-    		echo "ego" ;
+    		echo "is twin" ;
     		return true; 
    		 }else{
 
-    		echo "no ego";
+    		echo "is not twin";
     		return false;
    	
  	}else{
